@@ -98,6 +98,7 @@ p {
 #btnSubmit{
     display: block;
     width: 100%;
+    height: 40px;
     cursor: pointer;
     border-radius: 25px;
     border: none;
