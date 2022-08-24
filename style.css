@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+:root {
+    --primary-color-orange: hsl(25, 97%, 53%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-light-grey: hsl(217, 12%, 63%);
+    --color-medium-grey: hsl(216, 12%, 54%);
+    --color-dark-blue: hsl(213, 19%, 18%);
+    --color-very-dark-blue: hsl(216, 12%, 8%);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    color: var(--color-white);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background: var(--color-very-dark-blue); 
+}
+
+.container-1 {
+    width: 400px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 25px;
+    background: var(--color-dark-blue);
+}
+
+h1,h2{
+    color: var(--color-white);
+}
+
+p {
+    color: var(--color-light-grey);
+    margin-bottom: 1rem;
+}
+
+.cardRating{
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 0.5rem;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--color-dark-blue);
+}
+
+.icon img {
+    display: flex;
+    width: 35%;
+}
+
+.cardRating h1 {
+    margin: 2rem 0 1rem;
+}
+
+.cardRating input[type='radio']{
+    display: none;
+}
+
+.cardRating label{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    padding: 15px 20px;
+    margin-left: 12px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--color-white);
+    background-color: var(--color-very-dark-blue);
+}
+
+.cardRating label:hover{
+    background-color: var(--primary-color-orange);
+}
+
+.cardRating input:checked + label{
+    background-color: var(--color-medium-grey);
+}
+
+#btnSubmit{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 0;
+    margin-top: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-white);
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+    background-color: var(--primary-color-orange);
+}
+
+#btnSubmit:hover{
+    color: var(--primary-color-orange);
+    background-color: var(--color-white);
+}
+
+.container-2 {
+    width: 400px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 25px;
+    background: var(--color-dark-blue);
+}
+
+.cardThankYou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgThankYou{
+    display: flex;
+    margin: 20px 0;
+}
+
+.resultado{
+    border-radius: 2rem;
+    width: 175px;
+    height: 34px;
+    padding: 10px 5px;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: var(--color-dark-blue);
+}
+
+.cardThankYou .resultado p{
+    height: 1rem;
+    color: var(--primary-color-orange);
+}
+
+.cardThankYou h2{
+    margin: .5rem;
+}
+
+.cardThankYou p{
+    margin-top: .3rem;
+    text-align: center;
+}
+
+.hide{
+    display: none;
+}
