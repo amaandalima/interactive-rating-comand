@@ -57,7 +57,7 @@ p {
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.589) 0px 3px 8px;
     background-color: var(--color-dark-blue);
 }
 
@@ -139,12 +139,12 @@ p {
     border-radius: 2rem;
     width: 175px;
     height: 34px;
-    padding: 10px 5px;
+    padding: 6px 5px;
     margin-bottom: 1rem;
     align-items: center;
     justify-content: center;
     text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 3px 8px;
     background-color: var(--color-dark-blue);
 }
 
